@@ -14,7 +14,8 @@ EMPLOYERS_LIST = [["company name", "email", "website"]]
 
 <details>
 <summary>Generated PDFs</summary>
-
+<img width="392" alt="resume" src="https://user-images.githubusercontent.com/59973863/225799403-c8267984-e117-4a59-8372-74603ed75812.png">
+<img width="394" alt="cover_letter" src="https://user-images.githubusercontent.com/59973863/225799433-0f2ab699-2fc5-4301-b3f6-c448f69ef538.png">
 </details>
 
 ### Uses
