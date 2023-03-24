@@ -3,11 +3,11 @@ require 'fileutils'
 require 'csv'
 
 # data format
-# [["company name", "email", "website"]]
+# [["company name", "optional email", "optional website"]]
 
 # from csv file (excel spreadsheets can be saved as .csv)
 # EMPLOYERS_LIST = CSV.read("to_apply.csv") 
-
+# or
 # from array
 EMPLOYERS_LIST = [["Company 1", "company@email.com", "www.company.com"]]
 
@@ -36,7 +36,6 @@ for employer in EMPLOYERS_LIST
 
     # copy resume from root
     # FileUtils.cp('First_Last_resume.pdf', "generated/#{company}/First_Last_#{company}_resume.pdf")
-
     # or
     # create resume from html string
     resume = Grover.new(resume, format: 'A4').to_pdf
@@ -49,7 +48,7 @@ for employer in EMPLOYERS_LIST
 
   email = "Good Afternoon,
 
-I am a lorem ipsum I would be very interested in speaking with you about lorem ipsuming with the #{company_name} team. Please see my attached resume and cover letter.
+I am a Lorem Ipsum. I would be very interested in speaking with you about lorem ipsuming with the #{company_name} team. Please see my attached resume and cover letter.
 
 Best regards,
 
