@@ -1,16 +1,14 @@
 ## Application Helper
 
-- Fill resume and cover letter details in templates/*.html
-- Copy & paste templates/*.html to appropriate string variables (resume & cover_letter) in generate.rb
-- Input a list of company names as an array or a .csv file
+1. Fill resume and cover letter details in templates/*.html
+2. Copy & paste templates/*.html to appropriate string variables (resume & cover_letter) in generate.rb
+3. Input a list of company names as an array or a .csv file
 
 ```ruby
 # Array format
-EMPLOYERS_LIST = [["company name", "email", "website"]]
+EMPLOYERS_LIST = [["company name", "optional email", "optional website"]]
 ```
-
-
-- Run `ruby generate.db` to create folders containing an email template, resume pdf, and cover letter pdf for easier job applications.
+4. Run `ruby generate.db` to create folders containing an email template text file, resume pdf, and cover letter pdf for easier job applications.
 
 <details>
 <summary>Generated PDFs</summary>
